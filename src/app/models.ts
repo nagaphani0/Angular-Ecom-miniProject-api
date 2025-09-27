@@ -13,3 +13,21 @@ export interface productDataI{
   "productImageUrl": string,
   "categoryName": string
 }
+export interface catDataI {
+  "categoryId": number,
+  "categoryName": string,
+  "parentCategoryId": number
+}
+export interface getCustomerDataI {
+  "custId": 0,
+  "name": string,
+  "mobileNo": string,
+  "password": string
+}
+export interface postCustomerDataI {
+  "CustId": 0,
+  "Name": string,
+  "MobileNo": string,
+  "Password": string
+}
+
